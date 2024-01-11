@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+
+#budget_expenses {
+    display: flex;
+    justify-content: center;
+}
+
+#budget{
+    width: 200px;
+    margin: 100px 100px 20px 100px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+#expenses {
+    width: 200px;
+    margin: 100px 100px 20px 100px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#budget_input {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 10px 30px 10px 30px;
+}
+
+#overall {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 20px 400px 20px 400px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#list {
+    margin: 10px 300px 0px 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.expenses_name_span {
+    width: 150px;
+    padding-top: 10px;
+}
+
+.expenses_value_span {
+    padding-top: 10px;
+}
+
+#remove_btn {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+

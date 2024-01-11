@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Application</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="budget_expenses">
+        <div id="budget">
+            <span>Budget</span>
+            <input id="budget_input" placeholder="Total Budget" type="number" min="0" step="1" required>
+            <input class="btn" id="budget_btn" type="submit" value="Set Budget">
+        </div>
+            
+        <div id="expenses">
+            <span>Expenses</span>
+            <input id="expenses_name" placeholder="Rent" type="text" required>
+            <input id="expenses_input" placeholder="3000" type="number" required>
+            <input class="btn" id="expenses_btn" type="submit" value="Check Amount">
+        </div>
+    </div>
+
+    <div id="overall">
+        <div>
+            <p>Total Budget</p>
+            <span id="budget_amount">0</span>
+        </div>
+        <div>
+            <p>Expenses</p>
+            <span id="expenses_amount">0</span>
+        </div>
+        <div>
+            <p>Balance</p>
+            <span id="balance_amount">0</span>
+        </div>
+    </div>
+
+    <div id="list">
+    </div>
+
+    <script src="main.js"></script>       
+</body>
+</html>
